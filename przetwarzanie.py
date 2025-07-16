@@ -8,17 +8,19 @@ def stworz_produkty(folder, dane_uzytkownika):
     produkty = []
 
     for plik in glowne:
-        base_name = os.path.splitext(plik)[0]  # bez .jpg
-        nazwa = base_name.replace("_", " ").title()  # np. Plakat Zielony Piesek
+        base_name = os.path.splitext(plik)[0]
+        nazwa = base_name.replace("_", " ").title()
         slug = base_name.replace("_", "-").lower()
 
         # dopasuj galerie do tego produktu
-        galeria = [f for f in kompozycje if f.startswith(base_name + "_")]
+        base_name_lower = base_name.lower()
+        galeria = [f for f in kompozycje if f.lower().startswith(base_name_lower + "_")]
 
-        # opisy i SEO
+        # opisy i SEO – z GUI
         opis = dane_uzytkownika["opis_szablon"].replace("{nazwa}", nazwa)
-        seo_title = f"{nazwa} | Zacny Druk"
-        seo_description = f"Oryginalne plakaty i inne zacne wydruki. Zobacz: {nazwa}!"
+        seo_title = dane_uzytkownika["seo_title_template"].replace("{nazwa}", nazwa)
+        seo_description = dane_uzytkownika["seo_description_template"].replace("{nazwa}", nazwa)
+
         alt = nazwa
         fraza_kluczowa = nazwa
 
