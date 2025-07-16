@@ -6,3 +6,7 @@ produkty = stworz_produkty("product_images", dane_uzytkownika)
 
 for p in produkty:
     print(f"\n📦 {p['nazwa']}")
+
+from send_products import wyslij_produkty
+
+wyslij_produkty(produkty, "product_images")

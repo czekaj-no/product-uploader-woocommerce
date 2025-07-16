@@ -18,7 +18,7 @@ def stworz_produkty(folder, dane_uzytkownika):
         # opisy i SEO
         opis = dane_uzytkownika["opis_szablon"].replace("{nazwa}", nazwa)
         seo_title = f"{nazwa} | Zacny Druk"
-        seo_description = f"Oryginalne plakaty i inne zacne wydruki... Zobacz: {nazwa}!"
+        seo_description = f"Oryginalne plakaty i inne zacne wydruki. Zobacz: {nazwa}!"
         alt = nazwa
         fraza_kluczowa = nazwa
 

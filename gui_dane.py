@@ -1,6 +1,8 @@
 import os
 from dotenv import load_dotenv
 
+dane_uzytkownika = None
+
 # Wczytanie zmiennych z pliku .env
 load_dotenv()
 
@@ -69,10 +71,7 @@ def zatwierdz_dane():
         "warianty": warianty
     }
 
-    print("\n✅ DANE WPISANE PRZEZ UŻYTKOWNIKA:")
-    print(dane)
-
-    root.destroy()
+    root.quit()
 
 # GUI
 root = tk.Tk()
@@ -107,3 +106,16 @@ tk.Button(root, text="Zatwierdź dane", command=zatwierdz_dane).grid(row=9, colu
 # Start GUI
 zaktualizuj_opis()
 root.mainloop()
+
+def uruchom_gui():
+    global root
+    root = tk.Tk()
+    root.title("Dane produktów, które wgrywasz")
+
+    # (tu wstaw cały kod GUI: dropdown, pola, przyciski, itd.)
+
+    zaktualizuj_opis()
+    root.mainloop()
+    root.destroy()
+    return dane_uzytkownika
+
