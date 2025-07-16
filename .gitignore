@@ -1,0 +1,15 @@
+# Python virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# Konfiguracja środowiska
+.env
+
+# Pliki tymczasowe
+*.log
+*.tmp
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db

@@ -1,45 +1,67 @@
 import os
 import requests
 from dotenv import load_dotenv
+import unidecode
+import shutil
 
 load_dotenv()
 
-API_URL = os.getenv("WC_API_URL")
-API_KEY = os.getenv("WC_API_KEY")
-API_SECRET = os.getenv("WC_API_SECRET")
+REQUIRED_ENV_VARS = ["API_URL", "API_KEY", "API_SECRET"]
+missing_vars = [var for var in REQUIRED_ENV_VARS if not os.getenv(var)]
+
+if missing_vars:
+    print("❌ Brakuje poniższych zmiennych środowiskowych w pliku .env:")
+    for var in missing_vars:
+        print(f"   - {var}")
+    print("📁 Upewnij się, że plik .env znajduje się w tym samym folderze co main.py i zawiera wszystkie wymagane wpisy.")
+    exit(1)
+
+API_URL = os.getenv("API_URL")
+API_KEY = os.getenv("API_KEY")
+API_SECRET = os.getenv("API_SECRET")
+MEDIA_ENDPOINT = os.getenv("MEDIA_ENDPOINT")
+JWT_TOKEN = os.getenv("JWT_TOKEN")
 
 LOG_FILE = "log.txt"
 dry_run = False  # Zmień na True, jeśli chcesz testować bez wysyłania do Woo
+
+
 
 def log(msg):
     print(msg)
     with open(LOG_FILE, "a", encoding="utf-8") as log_file:
         log_file.write(msg + "\n")
 
+
 def upload_image(file_path):
     file_name = os.path.basename(file_path)
+    safe_file_name = unidecode.unidecode(file_name)  # usunięcie polskich znaków
+    title = os.path.splitext(safe_file_name)[0].replace("_", " ").title()
+
     headers = {
-        "Content-Disposition": f"attachment; filename={file_name}"
+        "Authorization": f"Bearer {JWT_TOKEN}",
+        "Content-Disposition": f"attachment; filename={safe_file_name}"
     }
 
     with open(file_path, "rb") as f:
-        if dry_run:
-            log(f"🖼️ [DRY RUN] Zdjęcie: {file_name} nie zostało wysłane.")
-            return 9999  # fikcyjne ID testowe
         res = requests.post(
-            f"{API_URL.replace('/wc/v3', '')}/wp/v2/media",
-            auth=(API_KEY, API_SECRET),
+            MEDIA_ENDPOINT,
             headers=headers,
-            files={"file": f}
+            files={"file": (safe_file_name, f, "image/jpeg")},
+            data={
+                "title": title,
+                "alt_text": title
+            }
         )
 
     if res.status_code == 201:
-        image_id = res.json()["id"]
+        image_id = res.json().get("id")
         log(f"📷 Zdjęcie wysłane: {file_name} (ID: {image_id})")
         return image_id
     else:
         log(f"❌ Błąd przy wysyłaniu zdjęcia {file_name}: {res.status_code} - {res.text}")
         return None
+
 
 def wyslij_produkty(produkty, folder):
     for produkt in produkty:

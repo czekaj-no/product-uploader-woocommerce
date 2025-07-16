@@ -1,23 +1,25 @@
 import os
 import tkinter as tk
 from tkinter import messagebox, ttk
-from dotenv import load_dotenv
 from tkinter import filedialog
+from dotenv import load_dotenv
 
-text_seo_title = None  # 🔽 DODANE
-text_seo_description = None  # 🔽 DODANE
+# 🔽 Globalne zmienne
+text_seo_title = None
+text_seo_description = None
+dane_uzytkownika = None  # finalne dane użytkownika
+folder_var = None
+pola_wariantow = {}
 
-# Wczytanie zmiennych z pliku .env
+# 🔽 Wczytanie .env
 load_dotenv()
-
 API_URL = os.getenv("WC_API_URL")
 API_KEY = os.getenv("WC_API_KEY")
 API_SECRET = os.getenv("WC_API_SECRET")
 
-PRODUCTS_FOLDER = "product_images"
-
+# 🔽 Szablony i dane
 szablony_opisow = {
-    "plakaty": "Plakat {nazwa} to wyjątkowa dekoracja, która doda charakteru Twojemu wnętrzu. Motyw: {nazwa}, dostępny w wielu formatach.",
+    "plakaty": "{nazwa} to wyjątkowa dekoracja, która doda charakteru Twojemu wnętrzu. Motyw: {nazwa}, dostępny w wielu formatach.",
     "plakaty personalizowane": "Personalizowany plakat {nazwa} to oryginalny prezent i pamiątka. Dodaj swoje dane i stwórz unikalny projekt dopasowany do Ciebie.",
     "mapy gotowe": "Mapa {nazwa} została zaprojektowana z dbałością o każdy detal. Idealna do biura, salonu lub jako prezent.",
     "mapy nieba / gwiazd": "Mapa nieba z momentu {nazwa} to pamiątka chwili, którą chcesz zatrzymać na zawsze. Niezwykły widok gwiazd w wyjątkowym momencie.",
@@ -33,81 +35,85 @@ warianty_stale = [
     "100x140"
 ]
 
-dane_uzytkownika = None  # globalna zmienna z danymi
 
 def uruchom_gui():
-    global root, text_log, selected_kategoria, text_opis, pola_wariantow, tryb,  folder_var
-
+    global root, text_log, selected_kategoria, text_opis, pola_wariantow, tryb, folder_var
     root = tk.Tk()
     root.title("ZACNY PRODUCTS 3000")
-    root.geometry("700x650")  # Ustawiamy stały rozmiar
+    root.geometry("750x750")
+    root.option_add("*Font", "Helvetica 10")
 
-    tryb = tk.StringVar(value="test")  # domyślnie tryb testowy
+    tryb = tk.StringVar(value="test")
 
     frame = tk.Frame(root)
-    frame.pack(padx=20, pady=10, fill="both", expand=True)
+    frame.pack(padx=20, pady=20, fill="both", expand=True)
 
-    # Tryb
-    tk.Label(frame, text="Tryb działania:").grid(row=0, column=0, sticky="w", pady=(0, 5))
-    tk.Radiobutton(frame, text="TEST (tylko podgląd)", variable=tryb, value="test").grid(row=1, column=0, sticky="w")
-    tk.Radiobutton(frame, text="WRZUCAMY PRODUKTY", variable=tryb, value="live").grid(row=2, column=0, sticky="w")
+    # 🔹 Tytuł
+    tk.Label(frame, text="🖼️ ZACNY PRODUCTS 3000", font=("Helvetica", 16, "bold")).grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
-    # Kategoria
-    tk.Label(frame, text="Kategoria produktu:").grid(row=3, column=0, sticky="w", pady=(10, 0))
+    # 🔹 Tryb działania
+    tk.Label(frame, text="Tryb działania:").grid(row=1, column=0, sticky="w")
+    tk.Radiobutton(frame, text="TEST (tylko podgląd)", variable=tryb, value="test").grid(row=2, column=0, sticky="w")
+    tk.Radiobutton(frame, text="WRZUCAMY PRODUKTY", variable=tryb, value="live").grid(row=3, column=0, sticky="w")
+
+    # 🔹 Kategoria
+    tk.Label(frame, text="Kategoria produktu:").grid(row=4, column=0, sticky="w", pady=(10, 0))
     selected_kategoria = tk.StringVar()
-    dropdown = ttk.Combobox(frame, textvariable=selected_kategoria, values=list(szablony_opisow.keys()),
-                            state="readonly", width=50)
-    dropdown.grid(row=3, column=1, pady=5)
+    dropdown = ttk.Combobox(frame, textvariable=selected_kategoria, values=list(szablony_opisow.keys()), state="readonly", width=50)
+    dropdown.grid(row=4, column=1, pady=5)
     dropdown.set(list(szablony_opisow.keys())[0])
     selected_kategoria.trace("w", zaktualizuj_opis)
 
-    # Opis (readonly)
-    tk.Label(frame, text="Opis produktu (szablon):").grid(row=4, column=0, sticky="nw", pady=(10, 0))
+    # 🔹 Opis
+    tk.Label(frame, text="Opis produktu (szablon):").grid(row=5, column=0, sticky="nw", pady=(10, 0))
     text_opis = tk.Text(frame, height=4, width=50, state="disabled", wrap="word")
-    text_opis.grid(row=4, column=1, pady=5)
+    text_opis.grid(row=5, column=1, pady=5)
 
-    tk.Label(frame, text="SEO tytuł (szablon):").grid(row=5, column=0, sticky="nw", pady=(10, 0))
+    # 🔹 SEO tytuł
+    tk.Label(frame, text="SEO tytuł (szablon):").grid(row=6, column=0, sticky="nw", pady=(10, 0))
     global text_seo_title
     text_seo_title = tk.Text(frame, height=2, width=50, wrap="word")
-    text_seo_title.grid(row=5, column=1, pady=5)
+    text_seo_title.grid(row=6, column=1, pady=5)
     text_seo_title.insert(tk.END, "Plakat {nazwa} – dekoracja z charakterem | Zacny Druk")
 
-    tk.Label(frame, text="SEO opis (szablon):").grid(row=6, column=0, sticky="nw", pady=(5, 0))
+    # 🔹 SEO opis
+    tk.Label(frame, text="SEO opis (szablon):").grid(row=7, column=0, sticky="nw", pady=(5, 0))
     global text_seo_description
     text_seo_description = tk.Text(frame, height=3, width=50, wrap="word")
-    text_seo_description.grid(row=6, column=1, pady=5)
-    text_seo_description.insert(tk.END,
-                                "Zobacz wyjątkowy plakat {nazwa}. Idealna ozdoba i pomysł na prezent. Druk na wysokiej jakości papierze.")
+    text_seo_description.grid(row=7, column=1, pady=5)
+    text_seo_description.insert(tk.END, "Zobacz wyjątkowy plakat {nazwa}. Idealna ozdoba i pomysł na prezent. Druk na wysokiej jakości papierze.")
 
-    # Warianty i ceny
-    tk.Label(frame, text="Warianty i ceny:").grid(row=7, column=0, sticky="nw", pady=(10, 0))
-    # Folder z obrazkami
-    tk.Label(frame, text="Folder z obrazkami:").grid(row=12, column=0, sticky="w", pady=(10, 0))
+    # 🔹 Linia oddzielająca
+    tk.Label(frame, text="──────────────────────────────────────────────").grid(row=8, column=0, columnspan=2, pady=(10, 10))
+
+    # 🔹 Warianty
+    tk.Label(frame, text="Warianty i ceny:").grid(row=9, column=0, sticky="nw")
+    wariant_frame = tk.Frame(frame)
+    wariant_frame.grid(row=9, column=1, sticky="w")
+    for i, wariant in enumerate(warianty_stale):
+        tk.Label(wariant_frame, text=wariant).grid(row=i, column=0, sticky="e", padx=(0, 5), pady=2)
+        entry = tk.Entry(wariant_frame, width=10)
+        entry.grid(row=i, column=1, pady=2)
+        pola_wariantow[wariant] = entry
+
+    # 🔹 Folder
+    tk.Label(frame, text="Folder z obrazkami:").grid(row=10, column=0, sticky="w", pady=(10, 0))
     folder_var = tk.StringVar()
     folder_frame = tk.Frame(frame)
-    folder_frame.grid(row=12, column=1, sticky="w", pady=(10, 0))
+    folder_frame.grid(row=10, column=1, sticky="w", pady=(10, 0))
     folder_entry = tk.Entry(folder_frame, textvariable=folder_var, width=40, state="readonly")
     folder_entry.pack(side="left", padx=(0, 5))
     tk.Button(folder_frame, text="Wybierz...", command=lambda: wybierz_folder(folder_var)).pack(side="left")
 
-    pola_wariantow = {}
-    for i, wariant in enumerate(warianty_stale):
-        tk.Label(frame, text=f"{wariant}").grid(row=8 + i, column=0, sticky="e")
-        entry = tk.Entry(frame, width=10)
-        entry.grid(row=8 + i, column=1, sticky="w")
-        pola_wariantow[wariant] = entry
+    # 🔹 Przycisk zatwierdzający
+    tk.Button(frame, text="✅ Zatwierdź dane i kontynuuj", font=("Helvetica", 11, "bold"), bg="#b9fbc0", command=zatwierdz_dane).grid(row=11, column=0, columnspan=2, pady=20)
 
-    # Przycisk zatwierdzający
-    tk.Button(frame, text="Zatwierdź dane", command=zatwierdz_dane).grid(row=5, column=0, columnspan=2, pady=15)
-
-    # Log
-    tk.Label(frame, text="Log programu:").grid(row=15, column=0, sticky="nw", pady=(10, 0))
+    # 🔹 Log programu
+    tk.Label(frame, text="Log programu:").grid(row=12, column=0, sticky="nw", pady=(0, 5))
     log_frame = tk.Frame(frame)
-    log_frame.grid(row=16, column=1, pady=(10, 0))
-
+    log_frame.grid(row=12, column=1, sticky="w")
     text_log = tk.Text(log_frame, height=10, width=60, state="disabled", wrap="word")
     text_log.pack(side="left", fill="both", expand=True)
-
     scrollbar = tk.Scrollbar(log_frame, command=text_log.yview)
     scrollbar.pack(side="right", fill="y")
     text_log.config(yscrollcommand=scrollbar.set)
@@ -116,6 +122,7 @@ def uruchom_gui():
     root.destroy()
 
     return dane_uzytkownika
+
 
 def zaktualizuj_opis(*args):
     wybrana = selected_kategoria.get()
@@ -137,17 +144,11 @@ def zatwierdz_dane():
 
     kategoria = selected_kategoria.get()
     opis_szablon = text_opis.get("1.0", tk.END).strip()
-
     seo_title_template = text_seo_title.get("1.0", tk.END).strip()
     seo_description_template = text_seo_description.get("1.0", tk.END).strip()
 
-    if not seo_title_template or not seo_description_template:
-        messagebox.showerror("Błąd", "Uzupełnij pola SEO.")
-        return
-
-
-    if not kategoria or not opis_szablon:
-        messagebox.showerror("Błąd", "Uzupełnij wszystkie pola.")
+    if not kategoria or not opis_szablon or not seo_title_template or not seo_description_template:
+        messagebox.showerror("Błąd", "Uzupełnij wszystkie wymagane pola.")
         return
 
     warianty = {}
@@ -173,7 +174,7 @@ def zatwierdz_dane():
         "folder": folder_path
     }
 
-    # Wczytaj log.txt jeśli istnieje
+    # Log
     if os.path.exists("log.txt"):
         with open("log.txt", "r", encoding="utf-8") as f:
             log_content = f.read()
@@ -184,7 +185,8 @@ def zatwierdz_dane():
 
     root.quit()
 
-# Uruchomienie samodzielne
+
+# 🔹 Główne uruchomienie
 if __name__ == "__main__":
     dane = uruchom_gui()
     print("✅ Dane z GUI:", dane)
