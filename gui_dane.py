@@ -19,7 +19,22 @@ API_SECRET = os.getenv("WC_API_SECRET")
 
 # 🔽 Szablony i dane
 szablony_opisow = {
-    "plakaty": "{nazwa} to wyjątkowa dekoracja, która doda charakteru Twojemu wnętrzu. Motyw: {nazwa}, dostępny w wielu formatach.",
+    "plakaty": """<h2>{nazwa}</h2>
+     {nazwa} to ciekawy element dekoracyjny od Zacnego Druku. Idealnie sprawdzi się jako ozdoba do Twojego domu lub oryginalny prezent. Łatwy do oprawienia, dostępny w popularnych rozmiarach.<br><br>
+     Plakat będzie świetnie wyglądał zarówno solo, jak i w galerii ściennej. Dodaj wyjątkowy akcent, który przyciąga wzrok i tworzy niepowtarzalny klimat w Twoim wnętrzu.<br><br>
+
+     <h3>Doskonała jakość</h3>
+     Zacny Druk to połączenie artystycznej finezji z wysoką jakością wykonania. Każdy plakat drukujemy na zamówienie. Korzystamy z nowoczesnych drukarek HP oraz EPSON oraz tylko oryginalnych tuszy. Dzięki temu kolory są intensywne, a detale – wyjątkowo wyraźne.<br><br>
+     Drukujemy na sztywnym, eleganckim papierze premium, który zapewnia <strong>trwałość i odporność na upływ czasu.</strong><br><br>
+     Więcej o jakości i dostępnych rozmiarach znajdziesz <a href="https://zacnydruk.pl/nasze-plakaty/" target="_blank"><strong>tutaj</strong></a>.<br><br>
+
+     <h3><strong>Szybka i bezpieczna wysyłka</strong></h3>
+     Twoje zamówienie spakujemy z troską – jak dla siebie! {nazwa} zostanie starannie zwinięty i umieszczony w grubej, kartonowej tubie, a dodatkowo zabezpieczony folią. Dzięki temu dotrze do Ciebie w idealnym stanie.<br><br>
+     Tak przygotowaną przesyłkę wysyłamy w ciągu 1–2 dni roboczych kurierem lub do wybranego paczkomatu. A przy zakupach <strong>od 149 zł – dostawa gratis!</strong><br><br>
+
+     <h3><strong>Gwarancja satysfakcji</strong></h3>
+     Wierzymy, że {nazwa} wzbogaci każde wnętrze. Jeśli jednak nie spełni Twoich oczekiwań, możesz go <strong>zwrócić w ciągu 30 dni</strong> bez podania przyczyny.<br><br>
+     Zależy nam na Twojej satysfakcji – kupuj bez ryzyka!""",
     "plakaty personalizowane": "Personalizowany plakat {nazwa} to oryginalny prezent i pamiątka. Dodaj swoje dane i stwórz unikalny projekt dopasowany do Ciebie.",
     "mapy gotowe": "Mapa {nazwa} została zaprojektowana z dbałością o każdy detal. Idealna do biura, salonu lub jako prezent.",
     "mapy nieba / gwiazd": "Mapa nieba z momentu {nazwa} to pamiątka chwili, którą chcesz zatrzymać na zawsze. Niezwykły widok gwiazd w wyjątkowym momencie.",
@@ -49,15 +64,15 @@ def uruchom_gui():
     frame.pack(padx=20, pady=20, fill="both", expand=True)
 
     # 🔹 Tytuł
-    tk.Label(frame, text="🖼️ ZACNY PRODUCTS 3000", font=("Helvetica", 16, "bold")).grid(row=0, column=0, columnspan=2, pady=(0, 20))
+    tk.Label(frame, text="ZACNY PRODUCTS 3000", font=("Helvetica", 16, "bold")).grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
     # 🔹 Tryb działania
-    tk.Label(frame, text="Tryb działania:").grid(row=1, column=0, sticky="w")
-    tk.Radiobutton(frame, text="TEST (tylko podgląd)", variable=tryb, value="test").grid(row=2, column=0, sticky="w")
-    tk.Radiobutton(frame, text="WRZUCAMY PRODUKTY", variable=tryb, value="live").grid(row=3, column=0, sticky="w")
+    tk.Label(frame, text="Tryb:").grid(row=1, column=0, sticky="w")
+    tk.Radiobutton(frame, text="TEST", variable=tryb, value="test").grid(row=2, column=0, sticky="w")
+    tk.Radiobutton(frame, text="LIVE", variable=tryb, value="live").grid(row=3, column=0, sticky="w")
 
     # 🔹 Kategoria
-    tk.Label(frame, text="Kategoria produktu:").grid(row=4, column=0, sticky="w", pady=(10, 0))
+    tk.Label(frame, text="Kategoria:").grid(row=4, column=0, sticky="w", pady=(10, 0))
     selected_kategoria = tk.StringVar()
     dropdown = ttk.Combobox(frame, textvariable=selected_kategoria, values=list(szablony_opisow.keys()), state="readonly", width=50)
     dropdown.grid(row=4, column=1, pady=5)
@@ -65,23 +80,23 @@ def uruchom_gui():
     selected_kategoria.trace("w", zaktualizuj_opis)
 
     # 🔹 Opis
-    tk.Label(frame, text="Opis produktu (szablon):").grid(row=5, column=0, sticky="nw", pady=(10, 0))
-    text_opis = tk.Text(frame, height=4, width=50, state="disabled", wrap="word")
+    tk.Label(frame, text="Opis:").grid(row=5, column=0, sticky="nw", pady=(10, 0))
+    text_opis = tk.Text(frame, height=4, width=50, wrap="word")
     text_opis.grid(row=5, column=1, pady=5)
 
     # 🔹 SEO tytuł
-    tk.Label(frame, text="SEO tytuł (szablon):").grid(row=6, column=0, sticky="nw", pady=(10, 0))
+    tk.Label(frame, text="SEO tytuł:").grid(row=6, column=0, sticky="nw", pady=(10, 0))
     global text_seo_title
     text_seo_title = tk.Text(frame, height=2, width=50, wrap="word")
     text_seo_title.grid(row=6, column=1, pady=5)
-    text_seo_title.insert(tk.END, "Plakat {nazwa} – dekoracja z charakterem | Zacny Druk")
+    text_seo_title.insert(tk.END, "{nazwa} | Zacny Druk – Stylowe Dekoracje Ścienne")
 
     # 🔹 SEO opis
-    tk.Label(frame, text="SEO opis (szablon):").grid(row=7, column=0, sticky="nw", pady=(5, 0))
+    tk.Label(frame, text="SEO opis:").grid(row=7, column=0, sticky="nw", pady=(5, 0))
     global text_seo_description
     text_seo_description = tk.Text(frame, height=3, width=50, wrap="word")
     text_seo_description.grid(row=7, column=1, pady=5)
-    text_seo_description.insert(tk.END, "Zobacz wyjątkowy plakat {nazwa}. Idealna ozdoba i pomysł na prezent. Druk na wysokiej jakości papierze.")
+    text_seo_description.insert(tk.END, "Plakaty, mapy i inne zacne wydruki, którymi udekorujesz każde wnętrze. Bogaty wybór motywów i rozmiarów. Zobacz: {nazwa}!")
 
     # 🔹 Linia oddzielająca
     tk.Label(frame, text="──────────────────────────────────────────────").grid(row=8, column=0, columnspan=2, pady=(10, 10))
@@ -130,8 +145,6 @@ def zaktualizuj_opis(*args):
     text_opis.config(state="normal")
     text_opis.delete("1.0", tk.END)
     text_opis.insert(tk.END, opis)
-    text_opis.config(state="disabled")
-
 
 def wybierz_folder(var):
     folder_path = filedialog.askdirectory(title="Wybierz folder z obrazkami")

@@ -2478,3 +2478,45 @@ var wcpa_front = {"api_nonce":null,"root":"https:\/\/zacnydruk.pl\/wp-json\/wcpa
    ➕ Wariant dodany: 60x90 - 4 zł
    ➕ Wariant dodany: 70x100 - 5 zł
    ➕ Wariant dodany: 100x140 - 6 zł
+
+🚀 Wysyłam produkt: Plakat Basketball
+📷 Zdjęcie wysłane: plakat_basketball.jpg (ID: 16954)
+📷 Zdjęcie wysłane: plakat_basketball_kompozycja1.jpg (ID: 16955)
+✅ Produkt dodany: Plakat Basketball (ID: 16956)
+   ➕ Wariant dodany: 30x40 - 59 zł
+   ➕ Wariant dodany: 40x50 - 69 zł
+   ➕ Wariant dodany: 50x70 - 79 zł
+   ➕ Wariant dodany: 60x90 - 89 zł
+   ➕ Wariant dodany: 70x100 - 119 zł
+   ➕ Wariant dodany: 100x140 - 149 zł
+
+🚀 Wysyłam produkt: Plakat Piłka W Koszu
+📷 Zdjęcie wysłane: plakat_piłka_w_koszu.jpg (ID: 16963)
+✅ Produkt dodany: Plakat Piłka W Koszu (ID: 16964)
+   ➕ Wariant dodany: 30x40 - 59 zł
+   ➕ Wariant dodany: 40x50 - 69 zł
+   ➕ Wariant dodany: 50x70 - 79 zł
+   ➕ Wariant dodany: 60x90 - 89 zł
+   ➕ Wariant dodany: 70x100 - 119 zł
+   ➕ Wariant dodany: 100x140 - 149 zł
+
+🚀 Wysyłam produkt: Plakat Basketball
+📷 Zdjęcie wysłane: plakat_basketball.jpg (ID: 16971)
+📷 Zdjęcie wysłane: plakat_basketball_kompozycja1.jpg (ID: 16972)
+✅ Produkt dodany: Plakat Basketball (ID: 16973)
+   ➕ Wariant dodany: 30x40 - 49 zł
+   ➕ Wariant dodany: 40x50 - 59 zł
+   ➕ Wariant dodany: 50x70 - 69 zł
+   ➕ Wariant dodany: 60x90 - 79 zł
+   ➕ Wariant dodany: 70x100 - 99 zł
+   ➕ Wariant dodany: 100x140 - 129 zł
+
+🚀 Wysyłam produkt: Plakat Piłka W Koszu
+📷 Zdjęcie wysłane: plakat_piłka_w_koszu.jpg (ID: 16980)
+✅ Produkt dodany: Plakat Piłka W Koszu (ID: 16981)
+   ➕ Wariant dodany: 30x40 - 49 zł
+   ➕ Wariant dodany: 40x50 - 59 zł
+   ➕ Wariant dodany: 50x70 - 69 zł
+   ➕ Wariant dodany: 60x90 - 79 zł
+   ➕ Wariant dodany: 70x100 - 99 zł
+   ➕ Wariant dodany: 100x140 - 129 zł

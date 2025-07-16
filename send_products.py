@@ -103,13 +103,12 @@ def wyslij_produkty(produkty, folder):
             "type": "variable",
             "status": "publish",
             "description": produkt["opis"],
-            "short_description": produkt["opis"],
-            "categories": [{"name": produkt["kategoria"]}],  # można zamienić na ID
+            "categories": [{"id": 73}],
             "images": [{"id": glowne_zdjecie_id, "alt": glowne_alt_text}] + galeria_media,
             "attributes": [
                 {
                     "name": "Rozmiar plakatu",
-                    "visible": True,
+                    "visible": False,
                     "variation": True,
                     "options": rozmiary
                 }
