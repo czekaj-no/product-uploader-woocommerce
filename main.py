@@ -1,4 +1,4 @@
-from gui_dane import uruchom_gui
+from gui_data import uruchom_gui
 from przetwarzanie import stworz_produkty
 from demo import pokaz_demo
 from dotenv import load_dotenv
@@ -10,6 +10,7 @@ load_dotenv()
 API_URL = os.getenv("API_URL")
 API_KEY = os.getenv("API_KEY")
 API_SECRET = os.getenv("API_SECRET")
+
 
 def main():
     dane_uzytkownika = uruchom_gui()

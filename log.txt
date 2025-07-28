@@ -2520,3 +2520,964 @@ var wcpa_front = {"api_nonce":null,"root":"https:\/\/zacnydruk.pl\/wp-json\/wcpa
    ➕ Wariant dodany: 60x90 - 79 zł
    ➕ Wariant dodany: 70x100 - 99 zł
    ➕ Wariant dodany: 100x140 - 129 zł
+
+🚀 Wysyłam produkt: Plakat Basketball
+📷 Zdjęcie wysłane: plakat_basketball.jpg (ID: 16988)
+📷 Zdjęcie wysłane: plakat_basketball_kompozycja1.jpg (ID: 16989)
+✅ Produkt dodany: Plakat Basketball (ID: 16990)
+   ➕ Wariant dodany: 30x40 - 30 zł
+   ➕ Wariant dodany: 40x50 - 40 zł
+   ➕ Wariant dodany: 50x70 - 50 zł
+   ➕ Wariant dodany: 60x90 - 60 zł
+   ➕ Wariant dodany: 70x100 - 70 zł
+   ➕ Wariant dodany: 100x140 - 90 zł
+
+🚀 Wysyłam produkt: Plakat Piłka W Koszu
+📷 Zdjęcie wysłane: plakat_piłka_w_koszu.jpg (ID: 16997)
+✅ Produkt dodany: Plakat Piłka W Koszu (ID: 16998)
+   ➕ Wariant dodany: 30x40 - 30 zł
+   ➕ Wariant dodany: 40x50 - 40 zł
+   ➕ Wariant dodany: 50x70 - 50 zł
+   ➕ Wariant dodany: 60x90 - 60 zł
+   ➕ Wariant dodany: 70x100 - 70 zł
+   ➕ Wariant dodany: 100x140 - 90 zł
+
+🚀 Wysyłam produkt: Plakat Abstrakcyjna Głowa W Blękicie
+❌ Błąd przy wysyłaniu zdjęcia plakat_abstrakcyjna_głowa_w_blękicie.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Abstrakcyjna Głowa W Blękicie 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_abstrakcyjna_głowa_w_blękicie_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Ballerina
+❌ Błąd przy wysyłaniu zdjęcia plakat_ballerina.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Ballerina 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_ballerina_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Bliski Portret Ekspresjonistyczny
+❌ Błąd przy wysyłaniu zdjęcia plakat_bliski_portret_ekspresjonistyczny.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Bliski Portret Ekspresjonistyczny 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_bliski_portret_ekspresjonistyczny_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Esencja Tęsknoty
+❌ Błąd przy wysyłaniu zdjęcia plakat_esencja_tęsknoty.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Esencja Tęsknoty 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_esencja_tęsknoty_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Geometryczna Twarz
+❌ Błąd przy wysyłaniu zdjęcia plakat_geometryczna_twarz.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Geometryczna Twarz 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_geometryczna_twarz_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Geometryczny Obraz Abstrakcyjny
+❌ Błąd przy wysyłaniu zdjęcia plakat_geometryczny_obraz_abstrakcyjny.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Geometryczny Obraz Abstrakcyjny 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_geometryczny_obraz_abstrakcyjny_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Głowa Z Kasetą
+❌ Błąd przy wysyłaniu zdjęcia plakat_głowa_z_kasetą.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Głowa Z Kasetą 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_głowa_z_kasetą_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Kamienny Anioł Na Pustkowiu
+❌ Błąd przy wysyłaniu zdjęcia plakat_kamienny_anioł_na_pustkowiu.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Kamienny Anioł Na Pustkowiu 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_kamienny_anioł_na_pustkowiu_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Kolorowa Mozaika Twarzy
+❌ Błąd przy wysyłaniu zdjęcia plakat_kolorowa_mozaika_twarzy.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Kolorowa Mozaika Twarzy 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_kolorowa_mozaika_twarzy_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Króliczek Na Huśtawce
+❌ Błąd przy wysyłaniu zdjęcia plakat_króliczek_na_huśtawce.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Króliczek Na Huśtawce 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_króliczek_na_huśtawce_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Miasto W Trójkącie
+❌ Błąd przy wysyłaniu zdjęcia plakat_miasto_w_trójkącie.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Miasto W Trójkącie 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_miasto_w_trójkącie_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Minimalistyczne Kwiaty
+❌ Błąd przy wysyłaniu zdjęcia plakat_minimalistyczne_kwiaty.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Minimalistyczne Kwiaty 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_minimalistyczne_kwiaty_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Mona Lisa Z Naburmuszonym Kotem
+❌ Błąd przy wysyłaniu zdjęcia plakat_mona_lisa_z_naburmuszonym_kotem.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Mona Lisa Z Naburmuszonym Kotem 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_mona_lisa_z_naburmuszonym_kotem_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Nocne Kwiaty I Pełnia
+❌ Błąd przy wysyłaniu zdjęcia plakat_nocne_kwiaty_i_pełnia.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Nocne Kwiaty I Pełnia 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_nocne_kwiaty_i_pełnia_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Serce Z Okiem
+❌ Błąd przy wysyłaniu zdjęcia plakat_serce_z_okiem.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Serce Z Okiem 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_serce_z_okiem_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Szkic Wieży Eiffla
+❌ Błąd przy wysyłaniu zdjęcia plakat_szkic_wieży_eiffla.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Szkic Wieży Eiffla 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_szkic_wieży_eiffla_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Trawa I Księżyc
+❌ Błąd przy wysyłaniu zdjęcia plakat_trawa_i_księżyc.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Trawa I Księżyc 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_trawa_i_księżyc_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Uśmiechnięta Owca
+❌ Błąd przy wysyłaniu zdjęcia plakat_uśmiechnięta_owca.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Uśmiechnięta Owca 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_uśmiechnięta_owca_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Zaskoczony Kot
+❌ Błąd przy wysyłaniu zdjęcia plakat_zaskoczony_kot.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Zaskoczony Kot 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_zaskoczony_kot_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Zwierzaki W Pastelowych Kolorach
+❌ Błąd przy wysyłaniu zdjęcia plakat_zwierzaki_w_pastelowych_kolorach.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Zwierzaki W Pastelowych Kolorach 1
+❌ Błąd przy wysyłaniu zdjęcia plakat_zwierzaki_w_pastelowych_kolorach_1.png: 403 - {"code":"jwt_auth_invalid_token","message":"Expired token","data":{"status":403}}
+⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.
+
+🚀 Wysyłam produkt: Plakat Ballerina
+📷 Zdjęcie wysłane: plakat_ballerina.png (ID: 17011)
+📷 Zdjęcie wysłane: plakat_ballerina_kompozycja1.png (ID: 17012)
+📷 Zdjęcie wysłane: plakat_ballerina_kompozycja1_1.png (ID: 17013)
+📷 Zdjęcie wysłane: plakat_ballerina_kompozycja2.png (ID: 17014)
+📷 Zdjęcie wysłane: plakat_ballerina_kompozycja2_1.png (ID: 17015)
+📷 Zdjęcie wysłane: plakat_ballerina_kompozycja3.png (ID: 17016)
+📷 Zdjęcie wysłane: plakat_ballerina_kompozycja3_1.png (ID: 17017)
+✅ Produkt dodany: Plakat Ballerina (ID: 17018)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Króliczek Na Huśtawce 1
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce_1.png (ID: 17025)
+✅ Produkt dodany: Plakat Króliczek Na Huśtawce 1 (ID: 17026)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Nocne Kwiaty I Pełnia 1
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia_1.png (ID: 17033)
+✅ Produkt dodany: Plakat Nocne Kwiaty I Pełnia 1 (ID: 17034)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Uśmiechnięta Owca 1
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca_1.png (ID: 17041)
+✅ Produkt dodany: Plakat Uśmiechnięta Owca 1 (ID: 17042)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Kamienny Anioł Na Pustkowiu
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu.png (ID: 17049)
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu_kompozycja1.png (ID: 17050)
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu_kompozycja1_1.png (ID: 17051)
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu_kompozycja2.png (ID: 17052)
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu_kompozycja2_1.png (ID: 17053)
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu_kompozycja3.png (ID: 17054)
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu_kompozycja3_1.png (ID: 17055)
+✅ Produkt dodany: Plakat Kamienny Anioł Na Pustkowiu (ID: 17056)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Geometryczna Twarz 1
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz_1.png (ID: 17063)
+✅ Produkt dodany: Plakat Geometryczna Twarz 1 (ID: 17064)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Kolorowa Mozaika Twarzy 1
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy_1.png (ID: 17071)
+✅ Produkt dodany: Plakat Kolorowa Mozaika Twarzy 1 (ID: 17072)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Trawa I Księżyc
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc.png (ID: 17079)
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc_kompozycja_1.png (ID: 17080)
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc_kompozycja_1_1.png (ID: 17081)
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc_kompozycja_2.png (ID: 17082)
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc_kompozycja_2_1.png (ID: 17083)
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc_kompozycja_3.png (ID: 17084)
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc_kompozycja_3_1.png (ID: 17085)
+✅ Produkt dodany: Plakat Trawa I Księżyc (ID: 17086)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Mona Lisa Z Naburmuszonym Kotem
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem.png (ID: 17093)
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem_kompozycja_1.png (ID: 17094)
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem_kompozycja_1_1.png (ID: 17095)
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem_kompozycja_2.png (ID: 17096)
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem_kompozycja_2_1.png (ID: 17097)
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem_kompozycja_3.png (ID: 17098)
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem_kompozycja_3_1.png (ID: 17099)
+✅ Produkt dodany: Plakat Mona Lisa Z Naburmuszonym Kotem (ID: 17100)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Serce Z Okiem 1
+📷 Zdjęcie wysłane: plakat_serce_z_okiem_1.png (ID: 17107)
+✅ Produkt dodany: Plakat Serce Z Okiem 1 (ID: 17108)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Geometryczna Twarz
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz.png (ID: 17115)
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz_kompozycja1.png (ID: 17116)
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz_kompozycja1_1.png (ID: 17117)
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz_kompozycja2.png (ID: 17118)
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz_kompozycja2_1.png (ID: 17119)
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz_kompozycja3.png (ID: 17120)
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz_kompozycja3_1.png (ID: 17121)
+✅ Produkt dodany: Plakat Geometryczna Twarz (ID: 17122)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Abstrakcyjna Głowa W Blękicie
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie.png (ID: 17129)
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie_kompozycja_1.png (ID: 17130)
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie_kompozycja_1_1.png (ID: 17131)
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie_kompozycja_2.png (ID: 17132)
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie_kompozycja_2_1.png (ID: 17133)
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie_kompozycja_3.png (ID: 17134)
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie_kompozycja_3_1.png (ID: 17135)
+✅ Produkt dodany: Plakat Abstrakcyjna Głowa W Blękicie (ID: 17136)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Geometryczny Obraz Abstrakcyjny
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny.png (ID: 17143)
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny_kompozycja1.png (ID: 17144)
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny_kompozycja1_1.png (ID: 17145)
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny_kompozycja2.png (ID: 17146)
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny_kompozycja2_1.png (ID: 17147)
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny_kompozycja3.png (ID: 17148)
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny_kompozycja3_1.png (ID: 17149)
+✅ Produkt dodany: Plakat Geometryczny Obraz Abstrakcyjny (ID: 17150)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Geometryczny Obraz Abstrakcyjny 1
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny_1.png (ID: 17157)
+✅ Produkt dodany: Plakat Geometryczny Obraz Abstrakcyjny 1 (ID: 17158)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Głowa Z Kasetą
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą.png (ID: 17165)
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą_kompozycja1.png (ID: 17166)
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą_kompozycja1_1.png (ID: 17167)
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą_kompozycja2.png (ID: 17168)
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą_kompozycja2_1.png (ID: 17169)
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą_kompozycja3.png (ID: 17170)
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą_kompozycja3_1.png (ID: 17171)
+✅ Produkt dodany: Plakat Głowa Z Kasetą (ID: 17172)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Ballerina 1
+📷 Zdjęcie wysłane: plakat_ballerina_1.png (ID: 17179)
+✅ Produkt dodany: Plakat Ballerina 1 (ID: 17180)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Nocne Kwiaty I Pełnia
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia.png (ID: 17187)
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia_kompozycja1.png (ID: 17188)
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia_kompozycja1_1.png (ID: 17189)
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia_kompozycja2.png (ID: 17190)
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia_kompozycja2_1.png (ID: 17191)
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia_kompozycja3.png (ID: 17192)
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia_kompozycja3_1.png (ID: 17193)
+✅ Produkt dodany: Plakat Nocne Kwiaty I Pełnia (ID: 17194)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Szkic Wieży Eiffla 1
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla_1.png (ID: 17201)
+✅ Produkt dodany: Plakat Szkic Wieży Eiffla 1 (ID: 17202)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Trawa I Księżyc 1
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc_1.png (ID: 17209)
+✅ Produkt dodany: Plakat Trawa I Księżyc 1 (ID: 17210)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Kamienny Anioł Na Pustkowiu 1
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu_1.png (ID: 17217)
+✅ Produkt dodany: Plakat Kamienny Anioł Na Pustkowiu 1 (ID: 17218)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Miasto W Trójkącie
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie.png (ID: 17225)
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie_kompozycja1.png (ID: 17226)
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie_kompozycja1_1.png (ID: 17227)
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie_kompozycja2.png (ID: 17228)
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie_kompozycja2_1.png (ID: 17229)
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie_kompozycja3.png (ID: 17230)
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie_kompozycja3_1.png (ID: 17231)
+✅ Produkt dodany: Plakat Miasto W Trójkącie (ID: 17232)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Abstrakcyjna Głowa W Blękicie 1
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie_1.png (ID: 17239)
+✅ Produkt dodany: Plakat Abstrakcyjna Głowa W Blękicie 1 (ID: 17240)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Kolorowa Mozaika Twarzy
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy.png (ID: 17247)
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy_kompozycja1.png (ID: 17248)
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy_kompozycja1_1.png (ID: 17249)
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy_kompozycja2.png (ID: 17250)
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy_kompozycja2_1.png (ID: 17251)
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy_kompozycja3.png (ID: 17252)
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy_kompozycja3_1.png (ID: 17253)
+✅ Produkt dodany: Plakat Kolorowa Mozaika Twarzy (ID: 17254)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Esencja Tęsknoty
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty.png (ID: 17261)
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty_kompozycja_1.png (ID: 17262)
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty_kompozycja_1_1.png (ID: 17263)
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty_kompozycja_2.png (ID: 17264)
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty_kompozycja_2_1.png (ID: 17265)
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty_kompozycja_3.png (ID: 17266)
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty_kompozycja_3_1.png (ID: 17267)
+✅ Produkt dodany: Plakat Esencja Tęsknoty (ID: 17268)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Bliski Portret Ekspresjonistyczny
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny.png (ID: 17275)
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny_kompozycja_1.png (ID: 17276)
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny_kompozycja_1_1.png (ID: 17277)
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny_kompozycja_2.png (ID: 17278)
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny_kompozycja_2_1.png (ID: 17279)
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny_kompozycja_3.png (ID: 17280)
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny_kompozycja_3_1.png (ID: 17281)
+✅ Produkt dodany: Plakat Bliski Portret Ekspresjonistyczny (ID: 17282)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Zwierzaki W Pastelowych Kolorach
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach.png (ID: 17289)
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach_kompozycja1.png (ID: 17290)
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach_kompozycja1_1.png (ID: 17291)
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach_kompozycja2.png (ID: 17292)
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach_kompozycja2_1.png (ID: 17293)
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach_kompozycja3.png (ID: 17294)
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach_kompozycja3_1.png (ID: 17295)
+✅ Produkt dodany: Plakat Zwierzaki W Pastelowych Kolorach (ID: 17296)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Króliczek Na Huśtawce
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce.png (ID: 17303)
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce_kompozycja1.png (ID: 17304)
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce_kompozycja1_1.png (ID: 17305)
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce_kompozycja2.png (ID: 17306)
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce_kompozycja2_1.png (ID: 17307)
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce_kompozycja3.png (ID: 17308)
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce_kompozycja3_1.png (ID: 17309)
+✅ Produkt dodany: Plakat Króliczek Na Huśtawce (ID: 17310)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Zwierzaki W Pastelowych Kolorach 1
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach_1.png (ID: 17317)
+✅ Produkt dodany: Plakat Zwierzaki W Pastelowych Kolorach 1 (ID: 17318)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Esencja Tęsknoty 1
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty_1.png (ID: 17325)
+✅ Produkt dodany: Plakat Esencja Tęsknoty 1 (ID: 17326)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Zaskoczony Kot
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot.png (ID: 17333)
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot_kompozycja1.png (ID: 17334)
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot_kompozycja1_1.png (ID: 17335)
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot_kompozycja2.png (ID: 17336)
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot_kompozycja2_1.png (ID: 17337)
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot_kompozycja3.png (ID: 17338)
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot_kompozycja3_1.png (ID: 17339)
+✅ Produkt dodany: Plakat Zaskoczony Kot (ID: 17340)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Zaskoczony Kot 1
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot_1.png (ID: 17347)
+✅ Produkt dodany: Plakat Zaskoczony Kot 1 (ID: 17348)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Uśmiechnięta Owca
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca.png (ID: 17355)
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca_kompozycja1.png (ID: 17356)
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca_kompozycja1_1.png (ID: 17357)
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca_kompozycja2.png (ID: 17358)
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca_kompozycja2_1.png (ID: 17359)
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca_kompozycja3.png (ID: 17360)
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca_kompozycja3_1.png (ID: 17361)
+✅ Produkt dodany: Plakat Uśmiechnięta Owca (ID: 17362)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Bliski Portret Ekspresjonistyczny 1
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny_1.png (ID: 17369)
+✅ Produkt dodany: Plakat Bliski Portret Ekspresjonistyczny 1 (ID: 17370)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Minimalistyczne Kwiaty
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty.png (ID: 17377)
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty_kompozycja1.png (ID: 17378)
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty_kompozycja1_1.png (ID: 17379)
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty_kompozycja2.png (ID: 17380)
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty_kompozycja2_1.png (ID: 17381)
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty_kompozycja3.png (ID: 17382)
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty_kompozycja3_1.png (ID: 17383)
+✅ Produkt dodany: Plakat Minimalistyczne Kwiaty (ID: 17384)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Miasto W Trójkącie 1
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie_1.png (ID: 17391)
+✅ Produkt dodany: Plakat Miasto W Trójkącie 1 (ID: 17392)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Szkic Wieży Eiffla
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla.png (ID: 17399)
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla_kompozycja1.png (ID: 17400)
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla_kompozycja1_1.png (ID: 17401)
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla_kompozycja2.png (ID: 17402)
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla_kompozycja2_1.png (ID: 17403)
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla_kompozycja3.png (ID: 17404)
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla_kompozycja3_1.png (ID: 17405)
+✅ Produkt dodany: Plakat Szkic Wieży Eiffla (ID: 17406)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Głowa Z Kasetą 1
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą_1.png (ID: 17413)
+✅ Produkt dodany: Plakat Głowa Z Kasetą 1 (ID: 17414)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Minimalistyczne Kwiaty 1
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty_1.png (ID: 17421)
+✅ Produkt dodany: Plakat Minimalistyczne Kwiaty 1 (ID: 17422)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Serce Z Okiem
+📷 Zdjęcie wysłane: plakat_serce_z_okiem.png (ID: 17429)
+📷 Zdjęcie wysłane: plakat_serce_z_okiem_kompozycja1.png (ID: 17430)
+📷 Zdjęcie wysłane: plakat_serce_z_okiem_kompozycja1_1.png (ID: 17431)
+📷 Zdjęcie wysłane: plakat_serce_z_okiem_kompozycja2.png (ID: 17432)
+📷 Zdjęcie wysłane: plakat_serce_z_okiem_kompozycja2_1.png (ID: 17433)
+📷 Zdjęcie wysłane: plakat_serce_z_okiem_kompozycja3.png (ID: 17434)
+📷 Zdjęcie wysłane: plakat_serce_z_okiem_kompozycja3_1.png (ID: 17435)
+✅ Produkt dodany: Plakat Serce Z Okiem (ID: 17436)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Mona Lisa Z Naburmuszonym Kotem 1
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem_1.png (ID: 17443)
+✅ Produkt dodany: Plakat Mona Lisa Z Naburmuszonym Kotem 1 (ID: 17444)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Ballerina
+📷 Zdjęcie wysłane: plakat_ballerina.png (ID: 17451)
+📷 Zdjęcie wysłane: plakat_ballerina_kompozycja1.png (ID: 17452)
+📷 Zdjęcie wysłane: plakat_ballerina_kompozycja2.png (ID: 17453)
+📷 Zdjęcie wysłane: plakat_ballerina_kompozycja3.png (ID: 17454)
+✅ Produkt dodany: Plakat Ballerina (ID: 17455)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Kamienny Anioł Na Pustkowiu
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu.png (ID: 17462)
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu_kompozycja1.png (ID: 17463)
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu_kompozycja2.png (ID: 17464)
+📷 Zdjęcie wysłane: plakat_kamienny_anioł_na_pustkowiu_kompozycja3.png (ID: 17465)
+✅ Produkt dodany: Plakat Kamienny Anioł Na Pustkowiu (ID: 17466)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Trawa I Księżyc
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc.png (ID: 17473)
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc_kompozycja_1.png (ID: 17474)
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc_kompozycja_2.png (ID: 17475)
+📷 Zdjęcie wysłane: plakat_trawa_i_księżyc_kompozycja_3.png (ID: 17476)
+✅ Produkt dodany: Plakat Trawa I Księżyc (ID: 17477)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Mona Lisa Z Naburmuszonym Kotem
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem.png (ID: 17484)
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem_kompozycja_1.png (ID: 17485)
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem_kompozycja_2.png (ID: 17486)
+📷 Zdjęcie wysłane: plakat_mona_lisa_z_naburmuszonym_kotem_kompozycja_3.png (ID: 17487)
+✅ Produkt dodany: Plakat Mona Lisa Z Naburmuszonym Kotem (ID: 17488)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Geometryczna Twarz
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz.png (ID: 17495)
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz_kompozycja1.png (ID: 17496)
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz_kompozycja2.png (ID: 17497)
+📷 Zdjęcie wysłane: plakat_geometryczna_twarz_kompozycja3.png (ID: 17498)
+✅ Produkt dodany: Plakat Geometryczna Twarz (ID: 17499)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Abstrakcyjna Głowa W Blękicie
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie.png (ID: 17506)
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie_kompozycja_1.png (ID: 17507)
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie_kompozycja_2.png (ID: 17508)
+📷 Zdjęcie wysłane: plakat_abstrakcyjna_głowa_w_blękicie_kompozycja_3.png (ID: 17509)
+✅ Produkt dodany: Plakat Abstrakcyjna Głowa W Blękicie (ID: 17510)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Geometryczny Obraz Abstrakcyjny
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny.png (ID: 17517)
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny_kompozycja1.png (ID: 17518)
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny_kompozycja2.png (ID: 17519)
+📷 Zdjęcie wysłane: plakat_geometryczny_obraz_abstrakcyjny_kompozycja3.png (ID: 17520)
+✅ Produkt dodany: Plakat Geometryczny Obraz Abstrakcyjny (ID: 17521)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Głowa Z Kasetą
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą.png (ID: 17528)
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą_kompozycja1.png (ID: 17529)
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą_kompozycja2.png (ID: 17530)
+📷 Zdjęcie wysłane: plakat_głowa_z_kasetą_kompozycja3.png (ID: 17531)
+✅ Produkt dodany: Plakat Głowa Z Kasetą (ID: 17532)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Nocne Kwiaty I Pełnia
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia.png (ID: 17539)
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia_kompozycja1.png (ID: 17540)
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia_kompozycja2.png (ID: 17541)
+📷 Zdjęcie wysłane: plakat_nocne_kwiaty_i_pełnia_kompozycja3.png (ID: 17542)
+✅ Produkt dodany: Plakat Nocne Kwiaty I Pełnia (ID: 17543)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Miasto W Trójkącie
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie.png (ID: 17550)
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie_kompozycja1.png (ID: 17551)
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie_kompozycja2.png (ID: 17552)
+📷 Zdjęcie wysłane: plakat_miasto_w_trójkącie_kompozycja3.png (ID: 17553)
+✅ Produkt dodany: Plakat Miasto W Trójkącie (ID: 17554)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Kolorowa Mozaika Twarzy
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy.png (ID: 17561)
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy_kompozycja1.png (ID: 17562)
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy_kompozycja2.png (ID: 17563)
+📷 Zdjęcie wysłane: plakat_kolorowa_mozaika_twarzy_kompozycja3.png (ID: 17564)
+✅ Produkt dodany: Plakat Kolorowa Mozaika Twarzy (ID: 17565)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Esencja Tęsknoty
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty.png (ID: 17572)
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty_kompozycja_1.png (ID: 17573)
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty_kompozycja_2.png (ID: 17574)
+📷 Zdjęcie wysłane: plakat_esencja_tęsknoty_kompozycja_3.png (ID: 17575)
+✅ Produkt dodany: Plakat Esencja Tęsknoty (ID: 17576)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Bliski Portret Ekspresjonistyczny
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny.png (ID: 17583)
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny_kompozycja_1.png (ID: 17584)
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny_kompozycja_2.png (ID: 17585)
+📷 Zdjęcie wysłane: plakat_bliski_portret_ekspresjonistyczny_kompozycja_3.png (ID: 17586)
+✅ Produkt dodany: Plakat Bliski Portret Ekspresjonistyczny (ID: 17587)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Zwierzaki W Pastelowych Kolorach
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach.png (ID: 17594)
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach_kompozycja1.png (ID: 17595)
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach_kompozycja2.png (ID: 17596)
+📷 Zdjęcie wysłane: plakat_zwierzaki_w_pastelowych_kolorach_kompozycja3.png (ID: 17597)
+✅ Produkt dodany: Plakat Zwierzaki W Pastelowych Kolorach (ID: 17598)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Króliczek Na Huśtawce
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce.png (ID: 17605)
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce_kompozycja1.png (ID: 17606)
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce_kompozycja2.png (ID: 17607)
+📷 Zdjęcie wysłane: plakat_króliczek_na_huśtawce_kompozycja3.png (ID: 17608)
+✅ Produkt dodany: Plakat Króliczek Na Huśtawce (ID: 17609)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Zaskoczony Kot
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot.png (ID: 17616)
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot_kompozycja1.png (ID: 17617)
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot_kompozycja2.png (ID: 17618)
+📷 Zdjęcie wysłane: plakat_zaskoczony_kot_kompozycja3.png (ID: 17619)
+✅ Produkt dodany: Plakat Zaskoczony Kot (ID: 17620)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Uśmiechnięta Owca
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca.png (ID: 17627)
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca_kompozycja1.png (ID: 17628)
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca_kompozycja2.png (ID: 17629)
+📷 Zdjęcie wysłane: plakat_uśmiechnięta_owca_kompozycja3.png (ID: 17630)
+✅ Produkt dodany: Plakat Uśmiechnięta Owca (ID: 17631)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Minimalistyczne Kwiaty
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty.png (ID: 17638)
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty_kompozycja1.png (ID: 17639)
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty_kompozycja2.png (ID: 17640)
+📷 Zdjęcie wysłane: plakat_minimalistyczne_kwiaty_kompozycja3.png (ID: 17641)
+✅ Produkt dodany: Plakat Minimalistyczne Kwiaty (ID: 17642)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Szkic Wieży Eiffla
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla.png (ID: 17649)
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla_kompozycja1.png (ID: 17650)
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla_kompozycja2.png (ID: 17651)
+📷 Zdjęcie wysłane: plakat_szkic_wieży_eiffla_kompozycja3.png (ID: 17652)
+✅ Produkt dodany: Plakat Szkic Wieży Eiffla (ID: 17653)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
+
+🚀 Wysyłam produkt: Plakat Serce Z Okiem
+📷 Zdjęcie wysłane: plakat_serce_z_okiem.png (ID: 17660)
+📷 Zdjęcie wysłane: plakat_serce_z_okiem_kompozycja1.png (ID: 17661)
+📷 Zdjęcie wysłane: plakat_serce_z_okiem_kompozycja2.png (ID: 17662)
+📷 Zdjęcie wysłane: plakat_serce_z_okiem_kompozycja3.png (ID: 17663)
+✅ Produkt dodany: Plakat Serce Z Okiem (ID: 17664)
+   ➕ Wariant dodany: 30x40 - 49.00 zł
+   ➕ Wariant dodany: 40x50 - 55.00 zł
+   ➕ Wariant dodany: 50x70 - 65.00 zł
+   ➕ Wariant dodany: 60x90 - 79.00 zł
+   ➕ Wariant dodany: 70x100 - 95.00 zł
+   ➕ Wariant dodany: 100x140 - 159.00 zł
