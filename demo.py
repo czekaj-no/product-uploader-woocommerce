@@ -21,7 +21,6 @@ def pokaz_demo(produkty):
     canvas.pack(side="left", fill="both", expand=True)
     scrollbar.pack(side="right", fill="y")
 
-    # Nagłówek
     header = ttk.Label(scrollable_frame, text="📋 Podgląd załadowanych produktów", font=("Segoe UI", 14, "bold"))
     header.grid(row=0, column=0, padx=10, pady=(20, 10), sticky="w")
 
@@ -36,25 +35,21 @@ def pokaz_demo(produkty):
         galeria = ", ".join(produkt['galeria']) if produkt['galeria'] else "Brak"
         warianty = produkt['warianty']
 
-        # SEO
         seo_title = produkt.get('seo_title', 'brak')
         seo_description = produkt.get('seo_description', 'brak')
         fraza = produkt.get('fraza_kluczowa', 'brak')
         alt = produkt.get('alt', 'brak')
 
-        # Opis ogólny
         ttk.Label(frame, text=f"📝 Opis: {opis}", wraplength=900, justify="left").pack(anchor="w", pady=2)
         ttk.Label(frame, text=f"📂 Kategoria: {kategoria}").pack(anchor="w", pady=2)
         ttk.Label(frame, text=f"🖼️ Główne zdjęcie: {glowne}").pack(anchor="w", pady=2)
         ttk.Label(frame, text=f"🖼️ Galeria: {galeria}").pack(anchor="w", pady=2)
 
-        # SEO sekcja
         ttk.Label(frame, text=f"🔑 Fraza kluczowa: {fraza}").pack(anchor="w", pady=2)
         ttk.Label(frame, text=f"🔖 SEO title: {seo_title}").pack(anchor="w", pady=2)
         ttk.Label(frame, text=f"📄 SEO opis: {seo_description}", wraplength=900, justify="left").pack(anchor="w", pady=2)
         ttk.Label(frame, text=f"🖼️ ALT zdjęcia: {alt}").pack(anchor="w", pady=2)
 
-        # Warianty
         ttk.Label(frame, text="💰 Warianty:").pack(anchor="w", pady=(10, 0))
         for wariant, cena in warianty.items():
             ttk.Label(frame, text=f"   - {wariant}: {cena} zł").pack(anchor="w")

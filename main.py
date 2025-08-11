@@ -33,7 +33,6 @@ def main():
         print("🚀 Tryb LIVE – wysyłamy produkty do WooCommerce.")
         wyslij_produkty(produkty, dane_uzytkownika["folder"])
 
-    # Drukuj nazwę każdego produktu
     for p in produkty:
         print(f"\n📦 {p['nazwa']}")
 

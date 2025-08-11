@@ -2,7 +2,6 @@ import os
 import requests
 from dotenv import load_dotenv
 import unidecode
-import shutil
 
 load_dotenv()
 
@@ -23,7 +22,7 @@ MEDIA_ENDPOINT = os.getenv("MEDIA_ENDPOINT")
 JWT_TOKEN = os.getenv("JWT_TOKEN")
 
 LOG_FILE = "log.txt"
-dry_run = False  # Zmień na True, jeśli chcesz testować bez wysyłania do Woo
+dry_run = False
 
 
 
@@ -67,7 +66,6 @@ def wyslij_produkty(produkty, folder):
     for produkt in produkty:
         log(f"\n🚀 Wysyłam produkt: {produkt['nazwa']}")
 
-        # Główne zdjęcie
         glowne_zdjecie_path = os.path.join(folder, produkt["glowne_zdjecie"])
         if not os.path.exists(glowne_zdjecie_path):
             log(f"⛔ Brakuje głównego zdjęcia: {glowne_zdjecie_path}. Pomijam produkt.")
@@ -78,10 +76,8 @@ def wyslij_produkty(produkty, folder):
             log("⛔ Nie udało się załadować głównego zdjęcia. Pomijam produkt.")
             continue
 
-        # ALT do głównego zdjęcia (dynamiczny na podstawie pliku)
         glowne_alt_text = os.path.splitext(produkt["glowne_zdjecie"])[0].replace("_", " ").title()
 
-        # Galeria
         galeria_media = []
         produkt["galeria"].sort()  # sortowanie zdjęć galerii
         for img_name in produkt["galeria"]:
@@ -94,7 +90,6 @@ def wyslij_produkty(produkty, folder):
                 alt_text = os.path.splitext(img_name)[0].replace("_", " ").title()
                 galeria_media.append({"id": image_id, "alt": alt_text})
 
-        # Rozmiary (warianty)
         rozmiary = list(produkt["warianty"].keys())
 
         payload = {

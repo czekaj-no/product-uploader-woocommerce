@@ -48,14 +48,12 @@ def klik_odswiez_token():
         messagebox.showerror("Błąd", f"Nie udało się odświeżyć tokena:\n{e}")
 
 
-# 🔽 Globalne zmienne
 text_seo_title = None
 text_seo_description = None
 dane_uzytkownika = None  # finalne dane użytkownika
 folder_var = None
 pola_wariantow = {}
 
-# 🔽 Wczytanie .env
 load_dotenv()
 API_URL = os.getenv("WC_API_URL")
 API_KEY = os.getenv("WC_API_KEY")
@@ -98,7 +96,6 @@ cenniki = {
     }
 }
 
-# 🔽 Szablony i dane
 szablony_opisow = {
 
     "wybierz kategorię bejbe": """wybierz prawidłową kategorię bejbe!""",
@@ -166,15 +163,12 @@ def uruchom_gui():
     frame = tk.Frame(root)
     frame.pack(padx=20, pady=20, fill="both", expand=True)
 
-    # 🔹 Tytuł
     tk.Label(frame, text="ZACNY PRODUCTS 3000", font=("Helvetica", 16, "bold")).grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
-    # 🔹 Tryb działania
     tk.Label(frame, text="Tryb:").grid(row=1, column=0, sticky="w")
     tk.Radiobutton(frame, text="TEST", variable=tryb, value="test").grid(row=2, column=0, sticky="w")
     tk.Radiobutton(frame, text="LIVE", variable=tryb, value="live").grid(row=3, column=0, sticky="w")
 
-    # 🔹 Kategoria
     tk.Label(frame, text="Kategoria:").grid(row=4, column=0, sticky="w", pady=(10, 0))
     selected_kategoria = tk.StringVar()
     dropdown = ttk.Combobox(frame, textvariable=selected_kategoria, values=list(szablony_opisow.keys()), state="readonly", width=50)
@@ -182,29 +176,24 @@ def uruchom_gui():
     dropdown.set(list(szablony_opisow.keys())[0])
     selected_kategoria.trace("w", zaktualizuj_opis)
 
-    # 🔹 Opis
     tk.Label(frame, text="Opis:").grid(row=5, column=0, sticky="nw", pady=(10, 0))
     text_opis = tk.Text(frame, height=4, width=50, wrap="word")
     text_opis.grid(row=5, column=1, pady=5)
 
-    # 🔹 SEO tytuł
     tk.Label(frame, text="SEO tytuł:").grid(row=6, column=0, sticky="nw", pady=(10, 0))
     global text_seo_title
     text_seo_title = tk.Text(frame, height=2, width=50, wrap="word")
     text_seo_title.grid(row=6, column=1, pady=5)
     text_seo_title.insert(tk.END, "{nazwa} | Zacny Druk – Stylowe Dekoracje Ścienne")
 
-    # 🔹 SEO opis
     tk.Label(frame, text="SEO opis:").grid(row=7, column=0, sticky="nw", pady=(5, 0))
     global text_seo_description
     text_seo_description = tk.Text(frame, height=3, width=50, wrap="word")
     text_seo_description.grid(row=7, column=1, pady=5)
     text_seo_description.insert(tk.END, "Plakaty, mapy i inne zacne wydruki, którymi udekorujesz każde wnętrze. Bogaty wybór motywów i rozmiarów. Zobacz: {nazwa}!")
 
-    # 🔹 Linia oddzielająca
     tk.Label(frame, text="──────────────────────────────────────────────").grid(row=8, column=0, columnspan=2, pady=(10, 10))
 
-    # 🔹 Warianty
     tk.Label(frame, text="Warianty i ceny:").grid(row=9, column=0, sticky="nw")
     wariant_frame = tk.Frame(frame)
     wariant_frame.grid(row=9, column=1, sticky="w")
@@ -214,7 +203,6 @@ def uruchom_gui():
         entry.grid(row=i, column=1, pady=2)
         pola_wariantow[wariant] = entry
 
-    # 🔹 Przyciski do szybkiego ustawiania cen
     przyciski_frame = tk.Frame(wariant_frame)
     przyciski_frame.grid(row=len(warianty_stale), column=0, columnspan=2, pady=(10, 0))
 
@@ -229,7 +217,6 @@ def uruchom_gui():
         przyciski_cennika[typ] = btn
 
 
-    # 🔹 Folder
     tk.Label(frame, text="Folder z obrazkami:").grid(row=10, column=0, sticky="w", pady=(10, 0))
     folder_var = tk.StringVar()
     folder_frame = tk.Frame(frame)
@@ -238,12 +225,10 @@ def uruchom_gui():
     folder_entry.pack(side="left", padx=(0, 5))
     tk.Button(folder_frame, text="Wybierz...", command=lambda: wybierz_folder(folder_var)).pack(side="left")
 
-    # 🔁+✅ Ramka na przyciski
     przyciski_frame = tk.Frame(frame)
     przyciski_frame.grid(row=11, column=0, columnspan=2, pady=20, sticky="ew")
 
 
-    # 🔁 Odśwież token
     tk.Button(
         przyciski_frame,
         text="🔁 Odśwież token JWT",
@@ -251,7 +236,6 @@ def uruchom_gui():
         command=klik_odswiez_token
     ).pack(side="left", padx=5)
 
-    # ✅ Zatwierdź dane
     tk.Button(
         przyciski_frame,
         text="✅ Zatwierdź dane i kontynuuj",
@@ -260,7 +244,6 @@ def uruchom_gui():
         command=zatwierdz_dane
     ).pack(side="right", padx=5)
 
-    # 🔹 Log programu
     tk.Label(frame, text="Log programu:").grid(row=12, column=0, sticky="nw", pady=(0, 5))
     log_frame = tk.Frame(frame)
     log_frame.grid(row=12, column=1, sticky="w")
@@ -324,7 +307,6 @@ def zatwierdz_dane():
         "folder": folder_path
     }
 
-    # Log
     if os.path.exists("log.txt"):
         with open("log.txt", "r", encoding="utf-8") as f:
             log_content = f.read()
@@ -336,7 +318,6 @@ def zatwierdz_dane():
     root.quit()
 
 
-# 🔹 Główne uruchomienie
 if __name__ == "__main__":
     dane = uruchom_gui()
     print("✅ Dane z GUI:", dane)

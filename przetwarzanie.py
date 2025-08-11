@@ -12,11 +12,9 @@ def stworz_produkty(folder, dane_uzytkownika):
         nazwa = base_name.replace("_", " ").title()
         slug = base_name.replace("_", "-").lower()
 
-        # dopasuj galerie do tego produktu
         base_name_lower = base_name.lower()
         galeria = [f for f in kompozycje if f.lower().startswith(base_name_lower + "_")]
 
-        # opisy i SEO – z GUI
         opis = dane_uzytkownika["opis_szablon"].replace("{nazwa}", nazwa)
         seo_title = dane_uzytkownika["seo_title_template"].replace("{nazwa}", nazwa)
         seo_description = dane_uzytkownika["seo_description_template"].replace("{nazwa}", nazwa)

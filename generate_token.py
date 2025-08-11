@@ -17,7 +17,6 @@ def odswiez_token_i_zapisz_do_env():
     if not token:
         raise Exception("❌ Brak tokena w odpowiedzi")
 
-    # Nadpisz JWT_TOKEN w .env
     nowa_zawartosc = []
     jwt_found = False
     with open(".env", "r", encoding="utf-8") as f:
