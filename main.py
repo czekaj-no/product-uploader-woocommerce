@@ -12,6 +12,7 @@ API_KEY = os.getenv("API_KEY")
 API_SECRET = os.getenv("API_SECRET")
 
 
+
 def main():
     dane_uzytkownika = uruchom_gui()
 

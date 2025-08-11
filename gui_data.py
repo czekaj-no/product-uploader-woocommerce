@@ -112,7 +112,7 @@ szablony_opisow = {
      Więcej o jakości i dostępnych rozmiarach znajdziesz <a href="https://zacnydruk.pl/nasze-plakaty/" target="_blank"><strong>tutaj</strong></a>.<br><br>
 
      <h3><strong>Szybka i bezpieczna wysyłka</strong></h3>
-     Twoje zamówienie spakujemy z troską – jak dla siebie! {nazwa} zostanie starannie zwinięty i umieszczony w grubej, kartonowej tubie, a dodatkowo zabezpieczony folią. Dzięki temu dotrze do Ciebie w idealnym stanie.<br><br>
+     Twoje zamówienie spakujemy z troską – jak dla siebie! Plakat zostanie starannie zwinięty i umieszczony w grubej, kartonowej tubie, a dodatkowo zabezpieczony folią. Dzięki temu dotrze do Ciebie w idealnym stanie.<br><br>
      Tak przygotowaną przesyłkę wysyłamy w ciągu 1–2 dni roboczych kurierem lub do wybranego paczkomatu. A przy zakupach <strong>od 149 zł – dostawa gratis!</strong><br><br>
 
      <h3><strong>Gwarancja satysfakcji</strong></h3>
